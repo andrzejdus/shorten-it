@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "main": "index.html",
+  "version": "0.1.0",
+  "authors": [
+    "Andrzej Duś <andrzej.dus@gmail.com>"
+  ],
+  "license": "Apache 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

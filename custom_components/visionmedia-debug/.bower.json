@@ -1,0 +1,38 @@
+{
+  "name": "visionmedia/debug",
+  "main": "dist/debug.js",
+  "version": "2.1.1",
+  "homepage": "https://github.com/visionmedia/debug",
+  "authors": [
+    "TJ Holowaychuk <tj@vision-media.ca>"
+  ],
+  "description": "visionmedia/debug",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "visionmedia",
+    "debug"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "2.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.1.1",
+    "commit": "c890bedce81b25f14cb36af8a32cd9d3fecc1825"
+  },
+  "_source": "git://github.com/visionmedia/debug.git",
+  "_target": "~2.1.1",
+  "_originalSource": "visionmedia/debug",
+  "_direct": true
+}
