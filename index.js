@@ -1,12 +1,14 @@
 var Firebase = require('firebase');
 var express = require('express');
+var config = require('./config/config.js');
 
 var app = express();
-var shortUrlsRef = new Firebase('https://blazing-inferno-199.firebaseio.com/shortUrls');
+var shortUrlsRef = new Firebase(config.firebaseUrl);
 
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/custom_components'));
+app.use(express.static(__dirname + '/config'));
 
 app.get('*', function (request, response) {
     console.log(request.path);

@@ -16,7 +16,7 @@
 
     angular.module('urlShortener').controller('UrlShortenerController', ['$scope', '$location', '$firebase',
         function ($scope, $location, $firebase) {
-            var shortUrlsRef = new Firebase('https://blazing-inferno-199.firebaseio.com/shortUrls');
+            var shortUrlsRef = new Firebase(config.firebaseUrl);
             var sync = $firebase(shortUrlsRef.orderByChild('addedTimestamp'));
 
             var shortPath = getRandomString();
